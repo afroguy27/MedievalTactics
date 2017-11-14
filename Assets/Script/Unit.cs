@@ -27,7 +27,9 @@ public class Unit : MonoBehaviour {
 	//	range = r;
 	//	movement = move;
 	//}
-
+	public int getHealth(){
+		return health;
+	}
 	// Use this for initialization
 	void Start () {
 		

@@ -26,6 +26,9 @@ public class Map : MonoBehaviour {
 	//{
 	//	get { return UnitContainer.GetComponentsInChildren<Unit>().FirstOrDefault(x => x.isFocused);}
 	//}
+	public Unit getFocused(){
+		return FocusedUnit;
+	}
 
 	public void GenerateMap(){
 		
